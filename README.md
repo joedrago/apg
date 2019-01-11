@@ -19,6 +19,10 @@ basic AV1 image compression. It currently encodes all images in YUV444 12-bit (w
 turnkey, feature complete `.av1f` library out there exists since I wrote this README, you should
 probably use that instead.
 
+# Build Notes
+
+You need CMake and nasm.
+
 ---
 
 # License
