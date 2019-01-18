@@ -1,7 +1,7 @@
 # APG: AV1 Portable Graphics
 
-APG is a new image format intended to be a stopgap, lightweight alternative to `.av1f` until a
-proper/stable/mature/turnkey `.av1f` library with BMFF and alpha channel support exists. It is a
+APG is a new image format intended to be a stopgap, lightweight alternative to [AVIF](https://aomediacodec.github.io/av1-avif/) until a
+proper/stable/mature/turnkey AVIF library with BMFF and alpha channel support exists. It is a
 barebones format, only capable of wrapping a single AV1 encoded image along with an optional ICC
 profile.
 
