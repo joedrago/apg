@@ -1,4 +1,5 @@
-# APG: AV1 Portable Graphics
+# APG: AV1 Portable Graphics [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/joedrago/apg?branch=master&svg=true)](https://ci.appveyor.com/project/joedrago/apg/history)
+
 
 APG is a new image format intended to be a stopgap, lightweight alternative to [AVIF](https://aomediacodec.github.io/av1-avif/) until a
 proper/stable/mature/turnkey AVIF library with BMFF and alpha channel support exists. It is a
