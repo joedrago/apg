@@ -6,7 +6,7 @@ install:
     - 7z e -y nasm.zip
     - set PATH=%PATH%;%APPVEYOR_BUILD_FOLDER%
     - mkdir aom_build & cd aom_build
-    - cmake ..
+    - cmake .. -A x64
 
 build:
   project: aom_build/apg.sln
