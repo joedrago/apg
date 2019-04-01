@@ -12,5 +12,7 @@ build:
   project: aom_build/apg.sln
 
 artifacts:
-    - path: \**\Release\*.*
+    - path: aom_build\Release\*.*
       name: $(APPVEYOR_PROJECT_NAME)
+    - path: aom_build\ext\aom\Release\aom.lib
+      name: libaom
