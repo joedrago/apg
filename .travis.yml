@@ -1,0 +1,23 @@
+language: c
+dist: xenial
+
+compiler:
+  - clang
+  - gcc
+
+install:
+    # install Nasm
+    - wget https://www.nasm.us/pub/nasm/releasebuilds/2.14.02/nasm-2.14.02.tar.xz
+    - tar -xvf nasm-2.14.02.tar.xz
+    - cd nasm-2.14.02
+    - ./configure
+    - make
+    - sudo make install
+    - nasm --version
+    - cd ..
+    - mkdir .build && cd .build
+
+script:
+    - cmake ..
+    - make
+    - sudo make install
