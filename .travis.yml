@@ -1,0 +1,17 @@
+language: c
+dist: xenial
+
+install:
+    # install Nasm
+    - wget https://www.nasm.us/pub/nasm/releasebuilds/2.14.02/nasm-2.14.02.tar.xz
+    - tar -xvf nasm-2.14.02.tar.xz
+    - cd nasm-2.14.02
+    - ./configure
+    - make
+    - sudo make install
+    - nasm --version
+    - cd ..
+
+script:
+    - mkdir .build && cd .build
+    - cmake .. && make && sudo make install
