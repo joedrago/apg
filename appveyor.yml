@@ -9,7 +9,7 @@ install:
     - cmake ..
 
 build:
-  project: apg.sln
+  project: aom_build/apg.sln
 
 artifacts:
     - path: bin\Release\*.*
