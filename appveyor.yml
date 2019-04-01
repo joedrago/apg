@@ -12,5 +12,5 @@ build:
   project: aom_build/apg.sln
 
 artifacts:
-    - path: bin\Release\*.*
+    - path: aom_build\bin\Release\*.*
       name: $(APPVEYOR_PROJECT_NAME)
